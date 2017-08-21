@@ -10,7 +10,12 @@ Youtube Electron + Chrome Picture-in-Picture
 - Custom Progress Bar
 - Remove Youtube **info/icons/controls**
 - Continue playing current video (**start time** = **stop time**)
+- **Play/Pause** keyboard shortcut
 
 # Chrome Extension
 - [ ] **thumbnail** launch icon
 - [x] **video page** launch icon
+
+# Todo
+- [ ] **intro**
+- [ ] **playlist** support
