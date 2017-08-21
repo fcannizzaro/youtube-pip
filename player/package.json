@@ -2,12 +2,12 @@
 	"name": "youtube-picture-in-picture",
 	"version": "1.0.0",
 	"description": "External Youtube Player. (pip)",
-	"main": "index.js",
+	"main": "src/index.js",
 	"author": "Francesco Saverio Cannizzaro (fcannizzaro)",
 	"license": "GNU GPLv3",
 	"scripts": {
 		"start": "electron src/",
-		"pack": "electron-packager build youtube-pip -app-version=1.0 --icon=src/icon.ico"
+		"pack": "electron-packager . youtube-pip -app-version=1.0 --icon=src/icon.ico"
 	},
 	"dependencies": {
 		"electron": "^1.7.5",
