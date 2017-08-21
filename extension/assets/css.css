@@ -1,0 +1,11 @@
+#pip {
+	background: #E62117 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAR0lEQVR4AWMYlOB/0P+X/4kBr/4HQjS8AnJ+EIYgLRANQECUS4BgVAOKJBoY1UDTeEAk7z+EIVDVC4gGfyIz0Iv/vgyDEQAAH6Z6cWQjPrUAAAAASUVORK5CYII=') center no-repeat;
+	border-radius: 4px;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 40px;
+	position: absolute;
+	right: 16px;
+	top: 16px;
+	width: 40px;
+}

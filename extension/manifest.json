@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Picture in Picture",
+  "description": "Launch external Youtube player.",
+  "version": "1.0.0",
+  "author": "Francesco Saverio Cannizzaro (fcannizzaro)",
+  "homepage_url": "https://github.com/fcannizzaro/youtube-pip",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16": "assets/images/icon-16.png",
+    "128": "assets/images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "css": [
+        "assets/css.css"
+      ],
+      "js": [
+        "scripts/youtube.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "assets/oshare-browser.js",
+      "scripts/background.js"
+    ]
+  },
+  "license": "GNU GPLv3"
+}

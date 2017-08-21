@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#close {
+	-webkit-app-region: no-drag;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 26px;
+	position: absolute;
+	right: 8px;
+	text-align: center;
+	top: 8px;
+	width: 26px;
+	z-index: 999;
+  background: rgba(0,0,0,0.4);
+}
+
+#close img {
+	height: 18px;
+	margin-top: 4px;
+	width: 18px;
+}
+
+.move {
+	-webkit-app-region: drag;
+	border-radius: 50%;
+	bottom: 0;
+	height: 100%;
+	position: fixed;
+	right: -40%;
+	width: 50%;
+	z-index: 996;
+}
+
+.move1 {
+	right: auto;
+	left: -40%;
+}
+
+iframe {
+	background: #212121;
+	height: calc(100% - 4px);
+	position: fixed;
+	width: calc(100% - 4px);
+}
+
+#progress {
+	-webkit-app-region: no-drag;
+	background: rgba(255,255,255,0.5);
+	bottom: 4px;
+	height: 4px;
+	position: fixed;
+	width: calc(100% - 4px);
+	z-index: 997;
+  cursor: pointer;
+}
+
+#internal {
+	background: #E62117;
+	height: 100%;
+	position: absolute;
+}
