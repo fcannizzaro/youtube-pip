@@ -1,7 +1,7 @@
 const ipc = require('electron').ipcRenderer;
 const frame = document.getElementById('frame');
 const progress = document.getElementById('progress');
-const interna = document.getElementById('interna');
+const internal = document.getElementById('internal');
 
 var video;
 
