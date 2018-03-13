@@ -12,24 +12,21 @@
     "16": "assets/images/icon-16.png",
     "128": "assets/images/icon-128.png"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://www.youtube.com/*"
-      ],
-      "css": [
-        "assets/css.css"
-      ],
-      "js": [
-        "scripts/youtube.js"
-      ]
-    }
-  ],
+  "content_scripts": [{
+    "matches": [
+      "*://www.youtube.com/*"
+    ],
+    "css": [
+      "assets/css.css"
+    ],
+    "js": [
+      "scripts/youtube.js"
+    ]
+  }],
   "background": {
     "scripts": [
       "assets/oshare-browser.js",
       "scripts/background.js"
     ]
-  },
-  "license": "GNU GPLv3"
+  }
 }

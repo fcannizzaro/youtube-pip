@@ -2,12 +2,10 @@ var video = null;
 
 const init = () => {
 
-	const header = document.getElementById('watch-headline-title');
-
-	if (header) {
+	if (location.pathname == '/watch') {
 		const button = document.createElement('button');
 		button.id = 'pip';
-		header.appendChild(button);
+		document.body.appendChild(button);
 		button.addEventListener('click', function() {
 			video = document.getElementsByClassName('video-stream')[0];
 			const time = Math.round(video.currentTime);
